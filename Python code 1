@@ -1,0 +1,8 @@
+# -*- coding: utf-8 -*-
+# coding=utf-8
+import sys
+print sys.getdefaultencoding()
+
+# Two ways to define unicode
+s1 = u"人生苦短"
+s2 = unicode("人生苦短", "utf-8")
